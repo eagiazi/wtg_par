@@ -1,0 +1,147 @@
+################# rho=500 Ωm
+R1=544.4874
+C1=8.1305E-5
+L1=0.00068422
+RC1=0.00016864
+R2=771.3442
+C2=5.7393E-5
+L2=0.00041534
+R3=353.669
+C3=0.00012517
+L3=0.00044443
+R4=440.831
+C4=0.00012517
+L4=0.00044443
+R5=440.831
+C5=0.00010042
+L5=0.0009693
+R6=250.9357
+C6=0.00017642
+L6=0.00031534
+RC2=0.0024
+R7=250.9357
+C7=0.00017642
+L7=0.00031534
+R8=440.831
+C8=0.00010042
+L8=0.0009693
+CB=0.2971E-4
+LB=0.0034
+RB=0.2231
+CT=3.5718E-5
+LT=0.0055
+RT=3.5718E-5
+RSH=0.063
+LSH=1.5316
+CSH=7.4236E-5
+RCONT=86.6142
+LCONT=0.00063976
+CCONT=7.4236E-5
+
+RTCON=707.3380
+CTCON=1.2517E-04
+LCCON=4.4443E-04
+RCCON=2.0057E-04 
+
+################# rho=1000 Ωm
+R1=1.0890e+03
+C1=8.1305E-5
+L1=0.00068422
+RC1=0.00016864
+R2=1.5427e+03
+C2=5.7393E-5
+L2=0.00041534
+R3=707.3380
+C3=0.00012517
+L3=0.00044443
+R4=707.3380
+C4=0.00012517
+L4=0.00044443
+R5=881.6620
+C5=0.00010042
+L5=0.0009693
+R6=501.8715
+C6=0.00017642
+L6=0.00031534
+RC2=0.0024
+R7=501.8715
+C7=0.00017642
+L7=0.00031534
+R8=881.6620
+C8=0.00010042
+L8=0.0009693
+CB=0.2971E-4
+LB=0.0034
+RB=0.2231
+CT=3.5718E-5
+LT=0.0055
+RT=3.5718E-5
+RSH=0.063
+LSH=1.5316
+CSH=7.4236E-5
+RCONT=86.6142
+LCONT=0.00063976
+CCONT=7.4236E-5
+
+RTCON=707.3380
+CTCON=1.2517E-04
+LCCON=4.4443E-04
+RCCON=2.0057E-04 
+
+------------------------------------------------------------------------------------------------------------------------------------
+ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/
+ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/
+------------------------------------------------------------------------------------------------------------------------------------
+You lose, fella.   The EMTP logic has detected an error condition, and is now going to terminate program execution.  The following
+message summarizes the circumstances.  No input data card has yet been read (it is too early),  so no "last card" can be shown.
+              KILL code number                Overlay number               Nearby statement number
+                        213                          1                               4734
+KILL = 213.    Too many input data cards.   STARTUP  variable  LIMCRD  is the user-defined limit on these.    If there is data
+sorting by class (slash cards),  an extra factor of two is to be applied (e.g.,  2000 cards of data that include sorting require
+LIMCRD  greater than or equal to  4000).   For a really huge input data file,  understand the importance of  $INSERT.  Data cards
+that are moved to a separate  $INSERT  file avoid the counting of input lines.  Whereas content of  $INCLUDE  is counted,  content
+of  $INSERT  is not.  So provided data is all of one class (no "/" cards for sorting based on class),  isolation of it in a  $INSERT
+file has an obvious advantage for huge input data.
+------------------------------------------------------------------------------------------------------------------------------------
+ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/
+ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/
+------------------------------------------------------------------------------------------------------------------------------------
+
+ Temporary error stop in  ENTRY STOPTP of "WINDOW".     NCHAIN, LASTOV =     29     1
+               12345678901234567890123456789012345678901234567890123456789012345678901234567890
+ ABUFF(1:80) = $EOF    { Software end-of-file terminates last of 20 or fewer VMS-like symbols
+
+------------------------------------------------------------------------------------------------------------------------------------
+ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/
+ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/
+------------------------------------------------------------------------------------------------------------------------------------
+
+This is not actually a  KILL  error termination.  But ATP now will try to continue as if it were.  A recursive  CALL  is involved.
+
+------------------------------------------------------------------------------------------------------------------------------------
+ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/
+ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/ERROR/
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BEGIN NEW DATA CASE
+C ------------------------------------------------------------------------------
+C Generated by ATPDraw April, 11, 2026
+C from project C:\Users\enri\Desktop\diplomatiki\simulations\atp_simulation_file
+C ATPDraw developed by H. K. Høidalen at NTNU - NORWAY 1999-2024
+C ------------------------------------------------------------------------------
+C  dT  >< Tmax >< Xopt >< Copt ><Epsiln>
+   1.E-6    .001                        
+     500       1       1       1       1       0       0       1       0
